@@ -1,0 +1,49 @@
+/* Button */
+
+.Button {
+    padding: 10px 20px;
+  }
+  
+  /* Counter */
+  
+  .Counter {
+    padding: 15px;
+    background: lightgray;
+  }
+  
+  /* Navbar */
+  
+  .Navbar {
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+  }
+  
+  .Navbar>ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar>ul>li:not(:last-of-type) {
+    margin-right: 15px;
+  }
+  
+  .copyright {
+    font-style: italic;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .Logo {
+    width: 150px;
+    padding-right: 20px;
+  
+  }
+  
+  .MoviesPageGrid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-gap: 1rem;
+  }
+  
